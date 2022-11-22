@@ -22,7 +22,7 @@
  */
 $(document).ready(function(){
     var audio = document.getElementById("my_audio").play();
-    audioElement.addEventListener('audio', function() {
+    audio.addEventListener('audio', function() {
         this.play();
     }, true);
 });
