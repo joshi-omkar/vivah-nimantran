@@ -20,12 +20,12 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
-// $(document).ready('click', function(){
-//     document.getElementById("my_audio").play();
-//     console.log('Shaadi me zaroor aana');
-// });
+$(document).on('click', function(){
+    document.getElementById("my_audio").play();
+    console.log('Shaadi me zaroor aana');
+});
 
-window.onload = function() { document.getElementById("my_audio").play(); }
+// window.onload = function() { document.getElementById("my_audio").play(); }
 
 // Set the date we're counting down to
 var countDownDate = new Date("Nov 29, 2020 00:00:00").getTime();
@@ -51,7 +51,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "Bless the married couple for happy life!";
+        document.getElementById("time").innerHTML = "एक सुंदर नाते दृढ करण्यासाठी आपले शुभ आशीर्वाद देण्यास आपण सर्वांनी यावे... हे आग्रहाचे निमंत्रण...!";
     }
 }, 1000);
 
